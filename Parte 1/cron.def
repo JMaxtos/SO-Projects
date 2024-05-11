@@ -1,0 +1,18 @@
+###############################################################################
+## ISCTE-IUL: Trabalho prático de Sistemas Operativos 2022/2023
+##
+## Aluno: Nº:  111679     Nome: Joel Maximiano Matos
+## Nome do Módulo: cron.def
+## Descrição/Explicação do Módulo: 
+##
+##
+## Explicação de quais os comandos a usar para configurar o seu sistema Linux
+## usando este ficheiro:
+##  
+##  O Comando seria : crontab cron.def irá despoletar o agendamento
+###############################################################################
+
+# O refill encontra-se na mesma diretoria que este ficheiro
+17 9 * * 4 cd /home/a111679/2023/projeto/parte-1; ./refill.sh
+
+
